@@ -1,3 +1,5 @@
+# require 'pry-byebug'
+
 # First, we're going to practice reading the Stack Trace
 # Don't look at this method prior to running the test
 # Type 'rspec' into the terminal to run Rspec
@@ -48,9 +50,6 @@ end
 # First, include require 'pry-byebug' at the top of this page
 # Next insert plenty of breakpoints, and see if you can tell where things break
 # Once you find the error, fix it and get the test to pass
-
-# need to update ruby
-# include 'pry-byebug'
 
 def yell_greeting(string)
   name = string
